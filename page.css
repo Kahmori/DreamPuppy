@@ -1,0 +1,524 @@
+header {
+    width: 100%;
+    height: 8rem;
+    color: white;
+    border-bottom: 0.075rem solid gray;
+}
+
+.logomarca {
+    display: flex;
+    align-items: center;
+}
+
+.logomarca p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 1.5rem;
+    color: #697077;
+}
+
+.logomarca img{
+    margin-left: 3rem;
+}
+
+.logomarca a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.logomarca button{
+    width: 9rem;
+    height: 3rem;
+    background-color: #0F62FE;
+    border: 0.125rem solid #0F62FE;
+    position: absolute;
+    right: 3rem;
+}
+
+body {
+    margin: 0 auto;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    font-weight: 700;
+    color: #21272A;
+}
+
+.commontext{
+    color: #21272A;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.secao{
+    text-transform: uppercase;
+    width: 600px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #001D6C;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#block1{
+    width: 100%;
+    min-height: 29.75rem;
+    max-height: 80rem;
+    margin-top: 12.25rem;
+    margin-bottom: 10rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#textos1{
+    width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 9.25rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    position: relative;
+    bottom: 8rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+#block1 span #t1{
+    max-width: 37.5rem;
+    height: 1.25rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#block1 span #t2{
+    max-width: 37.5rem;
+    height: 7.8125rem;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#block1 div #t3{
+    max-width: 37.5rem;
+    height: 6.25rem;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#block1 div #t4{
+    max-width: 37.5rem;
+    height: 4.6875rem;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#caixadeemail input{
+    width: 21.8125rem;
+    height: 3rem;
+    padding: 0.75px 1rem 0.75px 3.25rem;
+    gap: 0.5rem;
+    background-color: #F2F4F8;
+    float: left;
+    align-items: left;
+    border: none;
+    border-bottom: 0.0625rem solid #C1C7CD;
+}
+
+.material-symbols-rounded{
+    width: 1.25rem;
+    height: 0.875rem;
+    
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #697077;
+}
+
+#icon1{
+    position: relative;
+    top: 0.355rem;
+    left: -24.75rem;
+}
+
+#icon2{
+    position: relative;
+    top: 1rem;
+    left: 3.75rem;
+}
+
+#caixadeemail ::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    width: 17.8125rem;
+    height: 1.375rem;
+    color: #697077;
+}
+
+#enteremail {
+    width: 8.25rem;
+    height: 3.125rem;
+    background-color: #0F62FE;
+    padding: 1rem 0.75rem 1rem 0.75rem;
+    margin-left: -0.5rem;
+    border: 0.125rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#mensagem {
+    min-width: 15.625rem;
+    max-width: 21.8125rem;
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    justify-content: baseline;
+    text-align: left;
+    float: inline-start;
+    color: green;
+    font-weight: 500;
+}
+
+#banner1{
+    width: min-content;
+    height: auto;
+    margin-top: 1.5rem;
+    
+    padding-right: 0rem;
+    position: relative;
+    bottom: 8.25rem;
+    justify-content: space-between;
+}
+
+/***************************/
+
+#block2{
+    width: 100%;
+    min-height: 50rem;
+    max-height: 100rem;
+    margin-bottom: 18rem;
+    background-color: #F2F4F8;
+    /**margin-top: 18.5rem;**/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner2{
+    align-content: center;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 8rem;
+    margin-right: 0rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+}
+
+#textos2{
+    width: 37.5rem;
+    height: auto;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.textgroup{
+    width:37.5rem;
+    height:6.3125rem;
+    gap: 1.5rem;
+    display: flex;
+    padding: 2.5rem;
+}
+
+.bloquinho{
+    width:18rem;
+    height:7.875rem;
+    gap: 1rem;
+}
+
+#parts{
+    padding: 0rem 0rem 8rem 0rem;
+    position: relative;
+    left: -2.5rem;
+    gap: 4rem;
+}
+
+#parts span{
+    font-size: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#parts .commontext{
+    max-width: 18rem;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titulo-principal{
+    position: relative;
+    top: 3.125rem;
+    font-size: 3.375rem;
+    line-height: 3rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/************************************/
+
+#block3{
+    width: 100%;
+    background-color: #F2F4F8;
+    min-height: 646px;
+    max-height: 76.875rem;
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-principal2{
+    margin-bottom: 3rem;
+    font-size: 3.375rem;
+    line-height: 3rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#block3 .commontext{
+    width: 674px;
+    height: 75px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#textos3{
+    width: 674px;
+    height: 462px;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem 0rem 2rem;
+    margin-bottom: -1.5rem;
+}
+
+#botoes{
+    width: 450px;
+    height: 56px;
+    padding-top: 3rem;
+}
+
+#botoes a{
+    text-decoration: none;
+}
+
+#b1 a{
+    color: #FFFFFF;
+}
+
+#b2 a{
+    color:#0F62FE;
+}
+
+#b1{
+    min-width: 204px;
+    height: 56px;
+    border: 2px solid #0F62FE;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color:#0F62FE;
+    padding: 0px 16px 0px 16px;
+    gap:10px;
+}
+
+#b2{
+    min-width: 204px;
+    height: 56px;
+    margin-left: 1rem;
+    border: 2px solid #0F62FE;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: transparent;
+    padding: 0px 16px 0px 16px;
+    gap:10px;
+}
+
+#banner3{
+    padding: 2rem 0rem 0rem 0rem;
+    margin-top: 3.75rem;
+    margin-bottom: 0;
+}
+
+/**Acréscimo footer**/
+
+footer {
+    width: 100%;
+    background-color: #697077;
+    border: none;
+    color: white;
+    font-size: 1.125rem;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+}
+
+#footer1{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0px 24px 0px;
+}
+
+#footer2{
+    padding: 24px 0px 6px 0px;
+}
+
+#footer3{
+    display: flex;
+    padding: 6px 0px 100px 0px;
+}
+
+.holder {
+    display: flex;
+    height: 250px;
+    margin-left: 5.5rem;
+}
+
+#holderend{
+    display: flex;
+    margin-right: 4rem;
+}
+
+#botoes2 input {
+    color: #697077;
+    width: 349px;
+    height: 48px;
+    font-size: 16px;
+} 
+
+#botoes2 button {
+    background-color: #0F62FE;
+    width: 132px;
+    height: 52px;
+    margin-top: 0.055rem;
+    margin-right: 4.75rem;
+    padding: 1rem 0.75rem 1rem 0.75rem;
+    border: 0.125rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#hr1{
+    margin: 2rem 4rem 4rem 4rem;
+}
+
+#hr2 {
+    margin: 6rem 4rem 4rem 4rem;
+}
+
+.colunas {
+    width: 30rem;
+    height: 172px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+    
+.left {
+    margin-right: 12rem;
+    margin-left: 5rem;
+}
+
+.right {
+    position: absolute;
+    right: 2.5rem;
+    word-spacing: 30px;
+    margin-right: 5.5rem;
+    margin-left: 5.5rem;
+}
+
+#logosmarcas {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+/**#iconeinpu {
+    position: absolute; 
+    height: 14px;
+    bottom: 15px;
+    left: 20px;
+} INSERIR ICONE DE EMAIL**/
+
+#textoinput {
+    padding-left: 55px;
+}
+
+/**Fast Creation**/
+
+#marca{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 1.5rem;
+    color: #FFFFFF;
+}
+
+#brand{
+    margin-left: 5.5rem;
+}
